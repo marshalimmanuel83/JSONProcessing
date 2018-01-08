@@ -14,10 +14,10 @@ public class JSONEncode {
 		jsonObject.put("name", "Marshal");
 		jsonObject.put("age", new Integer(33));
 		jsonObject.put("address", "India");
-		jsonObject.put("salary", new Double(80000));
+		jsonObject.put("salary", new Double(1000));
 		jsonEncode(jsonObject);
 
-		String jsonString = "{\"name\":\"Marshal\",\"age\":33,\"address\":\"India\"}";
+		String jsonString = "{\"name\":\"Marshal\",\"age\":30,\"address\":\"India\"}";
 		jsonDecode(jsonString);
 	}
 
