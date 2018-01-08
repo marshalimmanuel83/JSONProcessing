@@ -12,7 +12,7 @@ public class JSONEncode {
 	public JSONEncode() {
 		HashMap<Object, Object> jsonObject = new HashMap<Object, Object>();
 		jsonObject.put("name", "Marshal");
-		jsonObject.put("age", new Integer(33));
+		jsonObject.put("age", new Integer(30));
 		jsonObject.put("address", "India");
 		jsonObject.put("salary", new Double(1000));
 		jsonEncode(jsonObject);
